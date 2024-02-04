@@ -1,0 +1,62 @@
+Arrays:
+
+Creating NumPy arrays: np.array(), np.zeros(), np.ones(), np.arange(), np.linspace().
+Array Operations:
+
+Element-wise operations: +, -, *, /, np.sqrt().
+Broadcasting: np.broadcast().
+Mathematical Functions:
+
+Universal functions (ufuncs): np.sin(), np.cos(), np.exp(), np.log().
+Linear Algebra:
+
+Matrix multiplication: np.dot().
+Eigenvalues and eigenvectors: np.linalg.eig().
+Solving linear equations: np.linalg.solve().
+Random Module:
+
+Generating random numbers: np.random.rand(), np.random.randn(), np.random.randint().
+Sampling from distributions: np.random.normal(), np.random.uniform().
+Statistical Operations:
+
+Descriptive statistics: np.mean(), np.median(), np.std(), np.var().
+Correlation and covariance: np.corrcoef(), np.cov().
+Array Manipulation:
+
+Reshaping arrays: np.reshape().
+Concatenation: np.concatenate().
+Splitting arrays: np.split().
+Indexing and Slicing:
+
+Fancy indexing: array[[1, 2, 3]].
+Boolean indexing: array[array > 0].
+Broadcasting:
+
+Broadcasting: np.broadcast().
+File I/O:
+
+Reading and writing data: np.loadtxt(), np.savetxt().
+Aggregation and Reduction:
+
+Sum, mean, min, max: np.sum(), np.mean(), np.min(), np.max().
+Masked Arrays:
+
+Creating masked arrays: np.ma.masked_array().
+Memory Management:
+
+Memory views: np.ndarray.view().
+Vectorization:
+
+Vectorized functions: Writing functions that operate on entire arrays at once.
+Performance Optimization:
+
+Optimizing code for better performance.
+NumPy and Pandas Integration:
+
+Using NumPy arrays in Pandas DataFrames: pd.DataFrame().
+Understanding Data Types:
+
+Checking data type: array.dtype.
+Advanced Topics:
+
+FFT (Fast Fourier Transform): np.fft.fft().

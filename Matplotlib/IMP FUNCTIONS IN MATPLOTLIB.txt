@@ -1,0 +1,72 @@
+IMP FUNCTIONS IN MATPLOTLIB
+
+1.Plotting Functions:
+plt.plot(): Plot lines and/or markers.
+plt.scatter(): Create scatter plots.
+plt.bar(), plt.barh(): Create bar plots (vertical and horizontal).
+plt.hist(): Generate histograms.
+
+2.Line and Marker Styles:
+linestyle and marker parameters in plotting functions.
+plt.plot(x, y, linestyle='--', marker='o', color='b')
+
+3.Labeling and Titles:
+plt.xlabel(), plt.ylabel(): Set axis labels.
+plt.title(): Set the plot title.
+plt.legend(): Display legends.
+
+4. Axis Customization:
+plt.xlim(), plt.ylim(): Set x and y-axis limits.
+plt.xticks(), plt.yticks(): Set tick locations and labels.
+plt.grid(): Display grid lines.
+
+5. Subplots:
+plt.subplot(): Create subplots.
+plt.subplots(): Create a figure with a grid of subplots.
+
+6.Annotations:
+plt.text(): Add text annotations.
+plt.annotate(): Annotate with arrows.
+
+7.Color Maps:
+Colormaps for visualizing 3D surfaces or heatmap plots
+plt.pcolormesh(X, Y, Z, cmap='viridis')
+
+8.Figure Size and DPI:
+plt.figure(figsize=(width, height), dpi=resolution): Set the figure size and DPI.
+
+9.Saving Figures:
+plt.savefig(): Save the current figure to a file.
+plt.savefig('output.png', dpi=300, bbox_inches='tight')
+
+10.3D Plotting:
+Axes3D for creating 3D plots.
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+11.Error Bars:
+plt.errorbar(): Plot data with error bars.
+
+12.Multiple Plots on the Same Axes:
+plt.twinx(), plt.twiny(): Create plots that share the same axis.
+
+13.Seaborn Integration:
+Use Seaborn styles and functions with Matplotlib.
+import seaborn as sns
+sns.set()
+
+14.Interactive Plots:
+%matplotlib notebook for interactive plots in Jupyter notebooks.
+
+15.Animation:
+FuncAnimation for creating animated plots.
+
+16.Box Plots:
+plt.boxplot(): Create box-and-whisker plots.
+
+17.Quiver Plots:
+plt.quiver(): Plot vectors.
+
+18.Contour Plots:
+plt.contour(), plt.contourf(): Display contour lines or filled contours.
