@@ -1,0 +1,21 @@
+1.sns.set(style)
+2.sns.countplot(x, data)
+3.sns.distplot(x)
+4.sns.pairplot(data)
+5.sns.heatmap(data)
+6.sns.boxplot(x, y, data)
+7.sns.violinplot(x, y, data)
+8.sns.scatterplot(x, y, data)
+9.sns.lmplot(x, y, data)
+10.sns.jointplot(x, y, data)
+
+IMP SEABORN PLOTS
+Line Plot
+Scatter Plot
+Box plot
+Point plot
+Count plot
+Violin plot
+Swarm plot
+Bar plot
+KDE Plot
