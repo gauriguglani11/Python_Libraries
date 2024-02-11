@@ -1,0 +1,49 @@
+scipy.stats: This module contains a large number of probability distributions and statistical functions for summarizing and analyzing data. Some important functions include:
+
+Probability density functions (PDFs)
+Cumulative distribution functions (CDFs)
+Percent point functions (inverse of CDFs)
+Random variate generation
+Statistical tests (e.g., t-tests, chi-square tests, etc.)
+scipy.optimize: This module offers optimization algorithms for solving optimization problems. It includes functions for:
+
+Scalar function minimization and root finding
+Multivariate optimization
+Least-squares minimization
+Non-linear least squares
+Constrained and unconstrained optimization
+scipy.interpolate: This module provides functions for interpolating between points, fitting functions to data, and evaluating functions. Key functions include:
+
+1-D and N-D interpolation
+B-spline interpolation
+Univariate and multivariate spline fitting
+Radial basis function interpolation
+scipy.signal: This module offers functions for signal processing tasks such as:
+
+Convolution and correlation
+Filtering
+Spectral analysis
+Wavelet transforms
+scipy.spatial: This module provides spatial algorithms and data structures for spatial data analysis. It includes functions for:
+
+Distance computations
+Delaunay triangulations
+Convex hulls
+Nearest neighbor queries
+Voronoi diagrams
+scipy.cluster: This module provides clustering algorithms such as:
+
+K-means clustering
+Hierarchical clustering
+Density-based clustering
+scipy.linalg: This module provides linear algebra routines such as:
+
+Matrix factorizations (e.g., LU, QR, Cholesky)
+Eigenvalue and eigenvector computations
+Matrix norms
+Solving linear equations
+scipy.sparse: This module offers sparse matrix representations and operations. Sparse matrices are efficient for large datasets with many zero values. Functions include:
+
+Sparse matrix creation
+Sparse matrix operations (e.g., multiplication, addition)
+Linear solvers for sparse matrices
